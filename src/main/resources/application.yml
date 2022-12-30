@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username:  root
+    password:  12345
+    url: jdbc:mysql://localhost:3306/sreenu
+    driverClassName: com.mysql.jdbc.driver
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true   
+    
+    
+server:
+  port: 8001
